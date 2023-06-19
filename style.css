@@ -99,6 +99,12 @@ h1 {
   background-color: white;
 }
 
+@media (max-width:640px) {
+  .main {
+    padding: 20px;
+  }
+}
+
 h2 {
   font-size: 48px;
   line-height: 100%;
@@ -118,6 +124,12 @@ h3 {
   display: flex;
   gap: 24px;
   justify-content: center;
+}
+
+@media (max-width:640px) {
+  .recommended__products {
+    flex-direction: column;
+  }
 }
 
 .product {
